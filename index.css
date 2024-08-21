@@ -1,0 +1,42 @@
+body {
+  background-color:rgb(200, 300, 250);
+}
+.card{
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 0px;
+  margin: 20px;
+  text-align: center;
+  width: 340px;
+  height: 400px;
+  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+}
+.card .tshirt-img{
+  max-width: 80%;
+  height: 250px;
+  border-radius: 20%;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+.card .title{
+  font-weight: bolder;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  overflow: hidden;
+  color: hsl(0, 0%, 20%);
+}
+.card .des{
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 30%);
+
+}
+.card .des .des-bold {
+  font-weight: bolder;
+}
